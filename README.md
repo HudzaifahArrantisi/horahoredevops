@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PT HORA HORE Landing Page
 
 Landing page modern untuk PT HORA HORE - Solusi Cloud Terdepan di Indonesia.
