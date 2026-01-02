@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --color-primary: #6366f1;
+  --color-secondary: #d946ef;
+  --color-accent: #8b5cf6;
+  --color-dark: #0f172a;
+  
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10;
+  }
+  .glass-hover {
+    @apply hover:bg-white/10 transition-all duration-300;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent;
+  }
+  .glow {
+    box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.5);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
