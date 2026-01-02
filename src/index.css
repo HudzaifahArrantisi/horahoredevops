@@ -2,7 +2,7 @@
 @plugin "daisyui";
 
 @theme {
-  --font-sans: "Inter", sans-serif;
+  --font-sans: "Poppins", sans-serif;
   --color-primary: #6366f1;
   --color-secondary: #d946ef;
   --color-accent: #8b5cf6;
@@ -10,6 +10,7 @@
   
   --animate-float: float 6s ease-in-out infinite;
 }
+
 
 @layer utilities {
   .glass {

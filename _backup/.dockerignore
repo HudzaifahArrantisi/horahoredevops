@@ -1,6 +1,0 @@
-# Ignore semua kecuali file yang diperlukan
-*
-!index.html
-!nginx.conf
-!Dockerfile
-!.env
